@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Allerta"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: #f4f3f8;
+        font-family: "Allerta", sans-serif;
+      }
+      #navbarMonstera {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        padding: 24px 0;
+        justify-content: space-between;
+      }
+      #navFirst img {
+        height: 40px;
+      }
+      #navMid {
+        display: flex;
+      }
+      #navMid div {
+        padding: 0 24px;
+      }
+      #navMid div h4 {
+        font-size: 18px;
+        font-weight: 500;
+        transition: 0.2s;
+        border-bottom: 2px solid transparent;
+        cursor: pointer;
+      }
+      #navMid div h4:hover {
+        border-bottom: 2px solid #000;
+      }
+      #navEnd {
+        display: flex;
+        padding-right: 20px;
+      }
+      #navEnd div {
+        padding: 0 16px;
+      }
+      #midWhole {
+        position: relative;
+        height: 100%;
+        width: 80%;
+        /* padding: 80px 0 0 80px; */
+        margin: 0 auto;
+      }
+      #midWholePart11 div ul li {
+        position: relative;
+      }
+      #midWholePart11 div ul li::marker {
+        height: 10px !important;
+        width: 10px !important;
+      }
+      #midWholePart11 ul {
+        padding: 100px 0 44px 0;
+        display: flex;
+        flex-direction: column;
+      }
+      #midWholePart11 #monstera {
+        font-size: 78px;
+        line-height: 1;
+      }
+      #imgMain {
+        position: absolute;
+        width: 35%;
+        bottom: 0;
+        right: 0;
+      }
+      #midWholePart12 {
+        display: inline-block;
+      }
+      #midWholePart121 {
+        display: flex;
+        align-items: center;
+        background-color: #466d50;
+        border-radius: 34px;
+        padding: 12px 24px;
+      }
+      #midWholePart121 h1 {
+        color: #fff;
+        font-size: 24px;
+        font-weight: 300;
+      }
+      #midWholePart122 img {
+        height: 16px;
+        padding: 0 8px;
+      }
+      #midWholePart13 {
+        display: flex;
+        width: 60%;
+        padding: 80px 0;
+      }
+      .midWholePart13Parts {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .midWholePart13Parts img {
+        padding-right: 10px;
+      }
+      .text {
+        font-size: 12px;
+        font-weight: 300;
+      }
+    </style>
+  </head>
+  <body>
+    <nav id="navbarMonstera">
+      <div id="navFirst">
+        <img src="./photos/Logo.svg" />
+      </div>
+
+      <div id="navMid">
+        <div>
+          <h4>Home</h4>
+        </div>
+        <div><h4>Collection</h4></div>
+        <div>
+          <h4>Shop</h4>
+        </div>
+        <div>
+          <h4>About</h4>
+        </div>
+        <div>
+          <h4>Contact</h4>
+        </div>
+      </div>
+
+      <div id="navEnd">
+        <div>
+          <img src="/photos/cart.svg" />
+        </div>
+        <div>
+          <img src="./photos/user.svg" />
+        </div>
+        <div>
+          <img src="./photos/search.svg" />
+        </div>
+      </div>
+    </nav>
+
+    <div id="midWhole">
+      <div id="midWholePart1">
+        <div id="midWholePart11">
+          <div>
+            <ul>
+              <li><h1 id="monstera">MONSTERA</h1></li>
+              <li></li>
+              <li>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                <!-- Debitis ab veniam adipisci corrupti unde, nostrum saepe. -->
+              </li>
+              <li>Quibusdam perferendis, recusandae?</li>
+            </ul>
+          </div>
+        </div>
+        <div id="midWholePart12">
+          <div id="midWholePart121">
+            <div>
+              <h1>DISCOVER</h1>
+            </div>
+            <div id="midWholePart122">
+              <img src="./photos/greaterThan.svg" />
+            </div>
+          </div>
+        </div>
+        <div id="midWholePart13">
+          <div class="midWholePart13Parts">
+            <div>
+              <img id="feeding" src="./photos/water plant.png" />
+            </div>
+            <div>
+              <h4>Feeding</h4>
+              <p class="text">
+                Lorem ipsum dolor sit amet consecteturadipisicing elit
+              </p>
+            </div>
+          </div>
+          <div class="midWholePart13Parts">
+            <div>
+              <img id="light" src="./photos/light.svg" alt="" />
+            </div>
+            <div>
+              <h4>Light</h4>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+              </p>
+            </div>
+          </div>
+          <div class="midWholePart13Parts">
+            <div>
+              <img id="care" src="./photos/plough.svg" />
+            </div>
+            <div>
+              <h4>Care</h4>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img id="imgMain" src="./photos/6_folwer_cut.png" />
+      </div>
+    </div>
+  </body>
+</html>
